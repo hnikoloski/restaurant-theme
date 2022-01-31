@@ -1,2 +1,3 @@
-# wp-starter
-Wordpress Starter theme Template
+# Lihnidos Wordpress Theme
+
+Restaurant wordpress theme.
