@@ -51,14 +51,12 @@ jQuery(document).ready(function ($) {
     setTimeout(function () {
       $("#preloader").fadeOut(600);
       $("body").removeClass("overflow-hidden");
-
       setAnimateWithWaypoints();
-    }, 200);
+    }, 800);
   } else {
     setTimeout(function () {
       $("#preloader").fadeOut(600);
       $("body").removeClass("overflow-hidden");
-
       setAnimateWithWaypoints();
     }, 300);
   }

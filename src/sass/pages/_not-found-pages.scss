@@ -17,13 +17,13 @@
       30.084292rem -15.042146rem 0 #292929;
   }
   .number::before {
-    background-color: $lblue;
+    background-color: $green;
     background-image: radial-gradient(
         closest-side at 50% 50%,
-        $darkerBlue 100%,
+        $green 100%,
         rgba(0, 0, 0, 0)
       ),
-      radial-gradient(closest-side at 50% 50%, $dblue 100%, rgba(0, 0, 0, 0));
+      radial-gradient(closest-side at 50% 50%, $green 100%, rgba(0, 0, 0, 0));
     background-repeat: repeat-x;
     background-size: 40vmin 40vmin;
     background-position: -100vmin 20vmin, 100vmin -25vmin;
@@ -62,14 +62,14 @@
     margin-top: 65.80939rem;
     font-size: 65.80939rem;
     font-weight: $bold;
-    color: $lblue;
-    border: 5.640805rem solid $lblue;
+    color: $green;
+    border: 5.640805rem solid $green;
     @include borderRadius(167.343877rem);
     padding: 28.204024rem 47.006707rem;
     text-transform: uppercase;
     &:hover {
       color: #fff;
-      background: $lblue;
+      background: $green;
       box-shadow: 0 5.640805rem 11.28161rem rgba(0, 0, 0, 0.35);
     }
   }
@@ -113,20 +113,20 @@
           border-bottom-left-radius: 188.026828rem;
           -moz-border-bottom-left-radius: 188.026828rem;
           -webkit-border-bottom-left-radius: 188.026828rem;
-          border: 1.880268rem solid $lblue;
+          border: 1.880268rem solid $green;
           &:focus {
-            border-color: $darkerBlue;
+            border-color: $green;
           }
         }
       }
       .search-submit {
         width: 30%;
         flex: 0 0 auto;
-        border: 1.880268rem solid $lblue;
+        border: 1.880268rem solid $green;
         border-top-right-radius: 188.026828rem;
         -moz-border-top-right-radius: 188.026828rem;
         -webkit-border-top-right-radius: 188.026828rem;
-        background: $lblue;
+        background: $green;
         color: #fff;
         border-bottom-right-radius: 188.026828rem;
         -moz-border-bottom-right-radius: 188.026828rem;
@@ -137,8 +137,8 @@
         text-transform: uppercase;
         padding: 0;
         &:hover {
-          background: $darkerBlue;
-          border-color: $darkerBlue;
+          background: $green;
+          border-color: $green;
         }
       }
     }
